@@ -1,5 +1,5 @@
 {% set name = "filepattern" %}
-{% set version = "2.0.4" %}
+{% set version = "2.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/PolusAI/filepattern/archive/v{{ version }}.tar.gz
-  sha256: 804008df706c44363d3e60f4d9f7c714f7fec22090ea38b4d81f3895908172c3
+  sha256: b883e55e16bdd937ca2e3722f320d3759e71ebd9835267c8c9399484399bf3ec
 
 build:
   skip: true  # [py2k]
@@ -58,3 +58,4 @@ about:
 extra:
   recipe-maintainers:
     - JesseMckinzie
+    - sameeul

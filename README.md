@@ -295,4 +295,5 @@ Feedstock Maintainers
 =====================
 
 * [@JesseMckinzie](https://github.com/JesseMckinzie/)
+* [@sameeul](https://github.com/sameeul/)
 

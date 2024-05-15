@@ -18,6 +18,7 @@ requirements:
     - cmake
     - make  # [not win]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
     - git
   host:

@@ -7,7 +7,7 @@ Home: https://github.com/PolusAI/filepattern
 
 Package license: MIT
 
-Summary: C++ library to store and filter files with systematic naming conventions using simplified regular expression-like patterns
+Summary: Python library to store and filter files with systematic naming conventions using simplified regular expression-like patterns
 
 Development: https://github.com/PolusAI/filepattern
 

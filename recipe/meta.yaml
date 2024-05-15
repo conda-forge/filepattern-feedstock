@@ -1,5 +1,5 @@
 {% set name = "filepattern" %}
-{% set version = "2.0.5" %}
+{% set version = "2.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/PolusAI/filepattern/archive/v{{ version }}.tar.gz
-  sha256: b883e55e16bdd937ca2e3722f320d3759e71ebd9835267c8c9399484399bf3ec
+  sha256: e6fa524637f497d1397e5f0d62ee271e7594fd066e7e30255f7afcbaa148346f
 
 build:
   skip: true  # [py2k]
@@ -40,7 +40,7 @@ test:
 
 about:
   home: https://github.com/PolusAI/filepattern
-  summary: C++ library to store and filter files with systematic naming conventions using simplified regular expression-like patterns
+  summary: Python library to store and filter files with systematic naming conventions using simplified regular expression-like patterns
   description: |
     The filepattern utility is used to store files that follow a pattern, where the pattern is analogous 
     to a simplified regular expression. The need for filepattern arises in situations where large amounts 

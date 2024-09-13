@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/PolusAI/filepattern/archive/v{{ version }}.tar.gz
-  sha256: bf73aa13435fe56f23e64aa5ff31af53356521dae35d1ae4253b8a638c34df06
+  sha256: acf77c6596d417e89dcdea7c7cdee1dc6fadb9dbd596dbc7d192e90046df31e1
 
 build:
   skip: true  # [py2k]
-  number: 0
+  number: 1
 
 requirements:
   build:
